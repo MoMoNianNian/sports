@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/home-shouye/index",
+    "pages/home-paihangbang/index",
+    "pages/home-daka/index",
+    "pages/home-wode/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/home-shouye/index",
+      "text": "首页"
+      },
+      {
+      "pagePath": "pages/home-paihangbang/index",
+      "text": "排行榜"
+      },
+      {
+      "pagePath": "pages/home-daka/index",
+      "text": "打卡"
+      },
+      {
+        "pagePath": "pages/home-wode/index",
+        "text": "我的"
+      }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
